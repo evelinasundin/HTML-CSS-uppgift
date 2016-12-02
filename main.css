@@ -1,0 +1,152 @@
+/* Heading text style */
+@font-face {
+   font-family: "mosaicleaf";
+   src: url("mosaicleaf.ttf");
+}
+
+/* Body text style */
+@font-face {
+   font-family: "quicksand";
+   src: url("Quicksand.otf");
+}
+
+@font-face {
+    font-family: 'quicksandlight_oblique';
+    src: url('quicksand_light_oblique-webfont.woff2') format('woff2'),
+         url('quicksand_light_oblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quicksandbold_oblique';
+    src: url('quicksand_bold_oblique-webfont.woff2') format('woff2'),
+         url('quicksand_bold_oblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+	font-family: "quicksand";
+	margin: 0em;
+	padding: 0em;
+	background-color: black;
+}
+
+.image{
+	height: 100%;
+}
+
+header {
+    float: left;
+    width: 100%;
+    height: 6.250em;
+    background-color: black;
+    display: flex;
+}
+
+h1 {
+    font-family: "mosaicleaf";
+    font-size: 6.250em;
+    color: white;
+    margin-top: 2.813rem;
+    padding: 0em;
+    margin-left: 6.250rem;
+}
+
+.navmenu {
+	height: 1.563emrem;
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	font-family: "mosaicleaf";
+	font-size: 1.250rem;
+	position: relative;	
+	padding-top: 1em;
+	clear: both;
+	text-decoration-color: white;
+
+}
+
+a:link {
+    color: white;
+    text-decoration:none;
+    }
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	color: #C4E4D9;
+	font-size: 1.875rem;
+}
+
+a:active {
+	color: red;
+}
+
+.flex-container{
+   margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex-items{
+    width: 68.750em;
+    height: 31.250em;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e6ffe6;
+}
+
+article{
+	text-align: center;
+	margin-left: 12rem;
+	margin-right: 12rem;
+	font-size: 2.000rem;
+	font-family: 'quicksandlight_oblique';
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 0.5rem;
+}
+
+td, th {
+    padding: 0.500rem;
+    text-align: center;
+    border: 0.125rem solid #96e87d;
+}
+
+tr:nth-child(even) {
+    background-color: #96e87d;
+}
+
+h2{
+	font-family: 'quicksandbold_oblique';
+	font-size: 2.000rem;
+}
+ul{
+	margin-top: 1rem;
+	margin-left: 12rem;
+	margin-right: 12rem;
+
+}
+li{
+	font-size: 1.7rem;
+	font-family: 'quicksandlight_oblique';
+}
+p{
+	text-align: center;
+}
